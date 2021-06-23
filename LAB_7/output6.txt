@@ -1,0 +1,16 @@
+C:\Users\lugow>curl -i -XDELETE http://localhost:8098/buckets/s23956/keys/doc4
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Mon, 21 Jun 2021 20:34:08 GMT
+Content-Type: application/json
+Content-Length: 0
+
+C:\Users\lugow>curl -i http://localhost:8098/buckets/s23956/keys/doc4
+HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Mon, 21 Jun 2021 20:35:34 GMT
+Content-Type: text/plain
+Content-Length: 10
+
+not found

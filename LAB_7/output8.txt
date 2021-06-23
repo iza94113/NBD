@@ -1,0 +1,8 @@
+C:\Users\lugow>curl -i -XPOST -d '{"val":"keyless"}' -H "Content-Type: application/json" http://localhost:8098/buckets/s23956/keys
+HTTP/1.1 201 Created
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s23956/keys/JUtd9LEpyUv31163awKqiQ6MKqI
+Date: Mon, 21 Jun 2021 20:38:23 GMT
+Content-Type: application/json
+Content-Length: 0

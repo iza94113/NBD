@@ -1,0 +1,13 @@
+C:\Users\lugow>curl -i http://localhost:8098/buckets/s23956/keys/JUtd9LEpyUv31163awKqiQ6MKqI
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvr+bnRzFwKAumMGUyJjHyrC/xPUWXxYA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23956>; rel="up"
+Last-Modified: Mon, 21 Jun 2021 20:38:23 GMT
+ETag: "3eBkUkPBVH3bxVkiul3PKo"
+Date: Mon, 21 Jun 2021 20:40:38 GMT
+Content-Type: application/json
+Content-Length: 15
+
+'{val:keyless}'

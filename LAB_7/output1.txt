@@ -1,0 +1,65 @@
+C:\Users\lugow>curl -i -XPUT -d '{"v1":"4.13","v2":26,"v3":null,"v4":"beta"}' -H "Content-Type: application/json" http://localhost:8098/buckets/s23956/keys/doc2?returnbody=true
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvr+bnXyJgUFdMIMpkTGPlcEg3/UWXxYA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23956>; rel="up"
+Last-Modified: Mon, 21 Jun 2021 20:14:40 GMT
+ETag: "3YHc9hSlnJmZ2snf2ryF3D"
+Date: Mon, 21 Jun 2021 20:14:40 GMT
+Content-Type: application/json
+Content-Length: 33
+
+'{v1:4.13,v2:26,v3:null,v4:beta}'
+C:\Users\lugow>curl -i -XPUT -d '{"v1":"3.14","v2":27,"v3":null,"v4":"alpha"}' -H "Content-Type: application/json" http://localhost:8098/buckets/s23956/keys/doc1?returnbody=true
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvr+bPymMgUFdMIMpkSmPleFavustviwA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23956>; rel="up"
+Last-Modified: Mon, 21 Jun 2021 20:17:26 GMT
+ETag: "hnBcwFp6xAbZLZr8UxBOo"
+Date: Mon, 21 Jun 2021 20:17:26 GMT
+Content-Type: application/json
+Content-Length: 34
+
+'{v1:3.14,v2:27,v3:null,v4:alpha}'
+C:\Users\lugow>curl -i -XPUT -d '{"v1":"1.13","v2":25,"v3":null,"v4":"gamma"}' -H "Content-Type: application/json" http://localhost:8098/buckets/s23956/keys/doc3?returnbody=true
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvr+bPymMgUFdKIMpkTGPlSGvwPUWXxYA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23956>; rel="up"
+Last-Modified: Mon, 21 Jun 2021 20:19:58 GMT
+ETag: "5aWLbuL4ueOITkeiPhXiyT"
+Date: Mon, 21 Jun 2021 20:19:58 GMT
+Content-Type: application/json
+Content-Length: 34
+
+'{v1:1.13,v2:25,v3:null,v4:gamma}'
+C:\Users\lugow>curl -i -XPUT -d '{"v1":"3.41","v2":24,"v3":null,"v4":"delta"}' -H "Content-Type: application/json" http://localhost:8098/buckets/s23956/keys/doc4?returnbody=true
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvr+b3/eSgUFdMIMpkTGPlaGmwPUWXxYA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23956>; rel="up"
+Last-Modified: Mon, 21 Jun 2021 20:20:12 GMT
+ETag: "7BIo6CTsmpoc9nWPK1HEpH"
+Date: Mon, 21 Jun 2021 20:20:12 GMT
+Content-Type: application/json
+Content-Length: 34
+
+'{v1:3.41,v2:24,v3:null,v4:delta}'
+C:\Users\lugow>curl -i -XPUT -d '{"v1":"3.33","v2":23,"v3":null,"v4":"epsilon"}' -H "Content-Type: application/json" http://localhost:8098/buckets/s23956/keys/doc5?returnbody=true
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvr9b6B7AwKAumMGUyJjHyjCpwPUWXxYA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s23956>; rel="up"
+Last-Modified: Mon, 21 Jun 2021 20:20:34 GMT
+ETag: "2yqOZiXWWfqwzxM74e4Nt"
+Date: Mon, 21 Jun 2021 20:20:34 GMT
+Content-Type: application/json
+Content-Length: 36
+
+'{v1:3.33,v2:23,v3:null,v4:epsilon}'
