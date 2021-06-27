@@ -1,0 +1,11 @@
+Część 1
+1. MATCH path=shortestPath((darjeeling {name:"Darjeeling"})-[*]->(sandakphu {name:"Sandakphu"}))RETURN path
+2. MATCH path=shortestPath((darjeeling {name:"Darjeeling"})-[*]->(sandakphu {name:"Sandakphu"})) WHERE ALL (relations IN RELATIONSHIPS(path) WHERE relations.winter = "true") RETURN path
+3.1 
+MATCH path=(darjeeling {name:"Darjeeling"})-[*]->(sandakphu {name:"Sandakphu"}) 
+WHERE ALL(route in relationships(path) WHERE route.winter = "true") 
+WITH path,reduce(distance = 0, re IN relationships(path) | distance + re.distance) AS distance
+RETURN path,distance
+
+Część 2
+4. MATCH (airport:Airport) -[connection]- (:Flight) return airport,count(connection) ORDER BY count(connection) DESC

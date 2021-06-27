@@ -1,0 +1,232 @@
+﻿[
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 105,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything is connected",
+"title": "Cloud Atlas",
+"released": 2012
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 116,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Freedom! Forever!",
+"title": "V for Vendetta",
+"released": 2006
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 10,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything that has a beginning has an end",
+"title": "The Matrix Revolutions",
+"released": 2003
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 9,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Free your mind",
+"title": "The Matrix Reloaded",
+"released": 2003
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 0,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Welcome to the Real World",
+"title": "The Matrix",
+"released": 1999
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 287,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Freedom! Forever!",
+"title": "V for Vendetta",
+"released": 2006
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 181,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything that has a beginning has an end",
+"title": "The Matrix Revolutions",
+"released": 2003
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 180,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Free your mind",
+"title": "The Matrix Reloaded",
+"released": 2003
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 171,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Welcome to the Real World",
+"title": "The Matrix",
+"released": 1999
+      }
+    }
+  },
+  {
+    "hugo": {
+"identity": 175,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "hugoWeavingMovies": {
+"identity": 276,
+"labels": [
+        "Movie"
+      ],
+"properties": {
+"tagline": "Everything is connected",
+"title": "Cloud Atlas",
+"released": 2012
+      }
+    }
+  }
+]
